@@ -22,13 +22,24 @@
   <style>
     .controls {
       margin: 200px 0;
-    }
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: row;
+
+      /* gap: 10px; */
+        }
 
     .scrubber {
       background: #BADA55;
       height: 10px;
       min-width: 100px;
       border-radius: 10px;
+      display: flex;
+      flex: 1;
+      /* grid-template-columns: 1fr; */
+      /* grid-template-columns: repeat(auto-fill,minmax(100px,200px)); */
+
     }
   </style>
 

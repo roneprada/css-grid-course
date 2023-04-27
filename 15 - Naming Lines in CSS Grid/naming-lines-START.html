@@ -46,8 +46,14 @@
     .container {
       display: grid;
       grid-gap: 20px;
-      grid-template-columns: 1fr 500px 1fr;
-      grid-template-rows: repeat(10, auto);
+      grid-template-columns:[rone] 1fr [ameth] 500px [doudou] 1fr;
+      grid-template-rows: [mouna] repeat(10, auto) [magui];
+    }
+
+    .item3{
+      background: slateblue;
+      grid-column: doudou;
+      grid-row: mouna / magui;
     }
   </style>
 </body>

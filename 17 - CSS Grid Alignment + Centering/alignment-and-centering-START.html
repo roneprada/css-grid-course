@@ -70,7 +70,25 @@
     .container {
       display: grid;
       grid-gap: 20px;
-      grid-template-columns: repeat(10, 1fr);
+      border: 10px solid var(--yellow);
+      /* height: 500px; */
+      grid-template-columns: repeat(5, 130px);
+      grid-template-rows: repeat(5, 100px);
+      grid-auto-rows: 100px;
+      /* justify-items: center; */
+      /* align-items: center; */
+      justify-content: space-between;
+      place-items: stretch stretch;
+    }
+
+    .itm{
+      background: white;
+    }
+
+    .itm5{
+      justify-self: center;
+      align-self: center;
+      background-color: #ffc600;
     }
   </style>
 </body>
